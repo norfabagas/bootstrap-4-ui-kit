@@ -663,6 +663,260 @@
   <input type="file" class="form-control-file border">
 </div> <!-- container -->
 
+<div class="divider"></div>
+<div class="container">
+  <h2>Input groups</h2>
+  <hr>
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">@</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Your Email">
+      <div class="input-group-append">
+        <span class="input-group-text">@example.com</span>
+      </div>
+    </div>
+  </form>
+
+  <!-- sizing -->
+
+  <form>
+    <div class="input-group mb-3 input-group-sm">
+       <div class="input-group-prepend">
+         <span class="input-group-text">Small</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Default</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+  <form>
+    <div class="input-group mb-3 input-group-lg">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Large</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+
+  <!-- Multiple inputs -->
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Person</span>
+      </div>
+      <input type="text" class="form-control" placeholder="First Name">
+      <input type="text" class="form-control" placeholder="Last Name">
+    </div>
+  </form>
+
+  <!-- Multiple addons / help text -->
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">One</span>
+        <span class="input-group-text">Two</span>
+        <span class="input-group-text">Three</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+
+  <!-- checkbox / radiobutton -->
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+        <input type="checkbox">
+      </div>
+    </div>
+    <input type="text" class="form-control" placeholder="Some text">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+        <input type="radio">
+      </div>
+    </div>
+    <input type="text" class="form-control" placeholder="Some text">
+  </div>
+
+  <!-- button -->
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <button class="btn btn-outline-primary" type="button">Basic Button</button>
+    </div>
+    <input type="text" class="form-control" placeholder="Some text">
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-append">
+      <button class="btn btn-success" type="submit">Go</button>
+    </div>
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Something clever..">
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="button">OK</button>
+      <button class="btn btn-danger" type="button">Cancel</button>
+    </div>
+  </div>
+
+  <!-- dropdown -->
+  <div class="input-group mt-3 mb-3">
+    <div class="input-group-prepend">
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+        Dropdown button
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" placeholder="Username">
+  </div>
+
+  <!-- label -->
+  <label for="demo">Write your email here:</label>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+    <div class="input-group-append">
+      <span class="input-group-text">@example.com</span>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+  <h2>Custom Form</h2>
+  <hr>
+
+  <!-- checkbox -->
+  <form>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+      <label class="custom-control-label" for="customCheck">Check this custom checkbox</label>
+    </div>
+  </form>
+
+  <!-- switch -->
+  <form>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="switch1">
+      <label class="custom-control-label" for="switch1">Toggle me</label>
+    </div>
+  </form>
+
+  <!-- radiobutton -->
+  <form>
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+      <label class="custom-control-label" for="customRadio">Custom radio</label>
+    </div>
+  </form>
+
+  <!-- inline radiobutton -->
+  <form>
+    <div class="custom-control custom-radio custom-control-inline">
+      <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+      <label class="custom-control-label" for="customRadio">Custom radio 1</label>
+    </div>
+    <div class="custom-control custom-radio custom-control-inline">
+      <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+      <label class="custom-control-label" for="customRadio2">Custom radio 2</label>
+    </div>
+  </form>
+
+  <!-- select menu -->
+  <form>
+    <select name="cars" class="custom-select">
+      <option selected>Custom Select Menu</option>
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+  </form>
+
+  <!-- select size -->
+  <form>
+    <!-- Small -->
+    <select name="cars" class="custom-select-sm">
+      <option selected>Small Custom Select Menu</option>
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <!-- Large -->
+    <select name="cars" class="custom-select-lg">
+      <option selected>Large Custom Select Menu</option>
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+  </form>
+
+  <!-- range -->
+  <form>
+    <label for="customRange">Custom range</label>
+    <input type="range" class="custom-range" id="customRange" name="points1">
+  </form>
+
+  <!-- file upload -->
+  <form>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="customFile">
+      <label class="custom-file-label" for="customFile">Choose file</label>
+    </div>
+  </form>
+
+</div> <!-- container -->
+
+<div class="divider"></div>
+
+<div class="container">
+  <h2>Image</h2>
+  <hr>
+  <!-- rounded corner -->
+  <h4>Rounded corner</h4>
+  <img src="cat.jpg" class="rounded" alt="Cat">
+
+  <!-- rounded circle -->
+  <h4>Rounded circle</h4>
+  <img src="cat.jpg" class="rounded-circle" alt="Cat">
+
+  <!-- thumbnail -->
+  <h4>Thumbnail</h4>
+  <img src="cat.jpg" class="img-thumbnail" alt="Cat">
+
+  <!-- aligning image -->
+  <h4>Image align</h4>
+  <img src="cat.jpg" class="float-left" alt="Cat">
+  <div class="divider"></div>
+  <img src="cat.jpg" class="mx-auto d-block" alt="Cat">
+  <div class="divider"></div>
+  <img src="cat.jpg" class="float-right" alt="Cat">
+
+  <div class="divider"></div>
+  <!-- responsive image -->
+  <h4>Responsive image</h4>
+  <img src="cat.jpg" class="img-fluid" alt="Cat">
+</div> <!-- container -->
 
 </body>
 </html>
